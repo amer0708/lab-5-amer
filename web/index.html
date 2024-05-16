@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Simple Registration without Confirmation</title>
+    </head>
+    <body>
+        Please register to your instructor's student address book.
+        <form method="post" action="/DBExample/SimpleRegistration">
+            <p>Last Name<font color="#FF0000">*</font>
+                <input type="text" name="lastname">&nbsp;
+                First Name <font color="#FF0000">*</font>
+                <input type="text" name="firstname">&nbsp;
+                MI<input type="text" name="mi" size="3">
+            </p>
+            <p>Telephone
+                <input type="text" name="telephone" size="20">&nbsp;
+                Email
+                <input type="text" name="email" size="28">&nbsp;
+            </p>
+            <p>Street<input type="text" name="street" size="50">&nbsp;
+            </p>
+            <p>City<input type="text" name="city" size="23">&nbsp;
+                State
+                <select size ="1" name ="state">
+                    <option value ="Selangor">Selangor</option>
+                    <option value ="Perak">Perak</option>
+                    <option value ="Kedah">Kedah</option>
+                    <option value ="Melaka"Melaka</option>
+                    <option value ="Johor">Johor</option>
+                    <option value ="Negeri Sembilan">Negeri Sembilan</option>
+                 </select>&nbsp
+                    <input type ="reset" value="Reset">
+                </p>
+            </form>
+            <p><font color="#FF0000">*required fields</font></p>
+        </body>
+    </html>
